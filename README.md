@@ -1,30 +1,37 @@
-# React + TypeScript + Vite
+# Proyecto del Asistente Virtual
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto consiste en un sistema de asistente virtual desarrollado en React para la parte frontend y en Nest.js para la parte backend.
 
-Currently, two official plugins are available:
+## Parte Backend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El proyecto de la parte backend está desarrollado en React. Puedes encontrar más detalles del código en el repositorio correspondiente:
 
-## Expanding the ESLint configuration
+### Enlace al Repositorio Backend
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[Repositorio de la Parte Backend](https://github.com/BillSaravia/Asistente-Back-nest-gpt.git)
 
-- Configure the top-level `parserOptions` property like this:
+## Parte del Proyecto: Instrucciones de Instalación del Frontend
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+A continuación se detallan los pasos para instalar y configurar el frontend de este proyecto:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Instalación en Entorno de Desarrollo
+
+1. **Clonar el Repositorio:**
+    ```bash
+    git clone https://github.com/BillSaravia/Asistente-Front-react-gpt.git
+    ```
+
+2. **Instalar Dependencias:**
+    ```bash
+    npm install
+    ```
+
+3. **Configurar Variables de Entorno:**
+   - Crea un archivo `.env` basado en el archivo `.env.template`.
+
+4. **Iniciar el Servidor en Modo Desarrollo:**
+    ```bash
+    npm run dev
+    ```
+
+Con estos pasos, el servidor frontend estará listo y funcionando en tu entorno de desarrollo.
